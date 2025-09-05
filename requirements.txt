@@ -3,6 +3,7 @@ aiohttp
 apscheduler
 asyncio
 bing_image_downloader
+Flask
 bs4
 deepai
 edge-tts
