@@ -14,7 +14,7 @@ def run_flask():
     app.run(host="0.0.0.0", port=port)
 
 def run_bot():
-    os.system("python3 -m AnnieXMusic")
+    os.system("bash start")   # use 'bash start' command as per repo
 
 if __name__ == "__main__":
     threading.Thread(target=run_bot).start()
